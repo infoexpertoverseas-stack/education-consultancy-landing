@@ -168,37 +168,21 @@ function WhyChooseUsSection() {
 
 // ---------------- Contact ----------------
 function ContactSection() {
-  const [message, setMessage] = useState("");
-
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    const mailto = `mailto:${CONTACT_EMAIL}?subject=Student Inquiry&body=${encodeURIComponent(
-      message
-    )}`;
-    window.location.href = mailto;
-  };
-
   return (
     <section id="contact" className="py-20 bg-gray-100 px-6">
-      <div className="max-w-3xl mx-auto text-center">
-        <h2 className="text-4xl font-bold mb-6 text-blue-600">Contact Us</h2>
-        <p className="mb-6 text-gray-700">{OFFICE_ADDRESS}</p>
-        <form onSubmit={handleSubmit} className="flex flex-col gap-4">
-          <textarea
-            className="p-4 border rounded-lg w-full"
-            rows={5}
-            placeholder="Write your details here..."
-            value={message}
-            onChange={(e) => setMessage(e.target.value)}
-            required
-          />
-          <button
-            type="submit"
-            className="bg-blue-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-blue-700"
-          >
-            Send
-          </button>
-        </form>
+      <div className="max-w-2xl mx-auto text-center">
+        <h2 className="text-3xl font-bold mb-6 text-blue-600">Contact Us</h2>
+        <p className="mb-6 text-gray-700">
+          Click below to start chatting with us on WhatsApp.
+        </p>
+        <a
+          href="https://wa.me/923005219769" // 👈 Replace with your real WhatsApp number
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-block bg-green-500 text-white px-8 py-4 rounded-lg font-semibold hover:bg-green-600 transition"
+        >
+          Chat with Us on WhatsApp
+        </a>
       </div>
     </section>
   );
