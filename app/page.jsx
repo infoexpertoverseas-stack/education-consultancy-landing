@@ -13,7 +13,7 @@ import {
 } from "lucide-react";
 
 // Config
-const WHATSAPP_NUMBER = "923001234567"; // replace with your real number
+const WHATSAPP_NUMBER = "923005219769"; // replace with your real number
 const CONTACT_EMAIL = "q_i_rwp@yahoo.com";
 const OFFICE_ADDRESS =
   "Office No. 1, 5th Floor, Ferooz Center, Blue Area, Islamabad, Pakistan";
@@ -176,17 +176,26 @@ function ContactSection() {
           Click below to start chatting with us on WhatsApp.
         </p>
         <a
-          href="https://wa.me/923005219769" // 👈 Replace with your real WhatsApp number
+          href="https://wa.me/923005219769" // ✅ Correct WhatsApp number
           target="_blank"
           rel="noopener noreferrer"
           className="inline-block bg-green-500 text-white px-8 py-4 rounded-lg font-semibold hover:bg-green-600 transition"
         >
           Chat with Us on WhatsApp
         </a>
+
+        <p className="mt-6 text-gray-700">
+          Expert Overseas Education<br />
+          Your trusted partner for admissions and visa guidance.<br /><br />
+          Office No. 1, 5th Floor, Ferooz Center, Blue Area, Islamabad, Pakistan<br />
+          q_i_rwp@yahoo.com<br />
+          +92 300 5219769  {/* ✅ Fixed phone number */}
+        </p>
       </div>
     </section>
   );
 }
+
 
 // ---------------- Footer ----------------
 function Footer() {
