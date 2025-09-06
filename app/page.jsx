@@ -185,7 +185,7 @@ function ContactSection() {
         </a>
 
         <p className="mt-6 text-gray-700">
-          Expert Overseas Education<br />
+          Expert Overseas Education Consultants Islamabad <br />
           Your trusted partner for admissions and visa guidance.<br /><br />
           Office No. 1, 5th Floor, Ferooz Center, Blue Area, Islamabad, Pakistan<br />
           q_i_rwp@yahoo.com<br />
@@ -204,7 +204,7 @@ function Footer() {
       <div className="max-w-6xl mx-auto grid sm:grid-cols-2 lg:grid-cols-4 gap-8 px-6">
         <div>
           <h3 className="text-white text-xl font-bold mb-3">
-            Expert Overseas Education
+            Expert Overseas Education Consultants 
           </h3>
           <p className="text-sm">
             Your trusted partner for admissions and visa guidance.
@@ -224,7 +224,7 @@ function Footer() {
         </div>
       </div>
       <div className="text-center mt-6 text-sm text-gray-500">
-        © {new Date().getFullYear()} Expert Overseas Education. All rights reserved.
+        © {new Date().getFullYear()} Expert Overseas Education Consultants. All rights reserved.
       </div>
     </footer>
   );
